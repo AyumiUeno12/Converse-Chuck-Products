@@ -3,6 +3,7 @@
 * {
   margin: 0;
   padding: 0;
+  box-sizing: border-box;
 }
 
 .container {
@@ -22,14 +23,14 @@ h4 {
 }
 
 h4 {
-  padding: 10px 0;
+  padding-bottom: 15px;
 }
 
 .price {
   font-size: 23px;
 }
 
-.product-details {
+.product-list {
   font-size: 23px;
 }
 
@@ -45,10 +46,21 @@ article {
   padding: 20px;
 }
 
+.price {
+  float: left;
+  margin-bottom: 20px;
+}
+
 .free-shipping {
   font-size: 12px;
   color: #777;
   text-transform: uppercase;
+  float: right;
+  margin-top: 5px;
+}
+
+.product-description {
+  clear: both;
 }
 
 .free-shipping,
@@ -155,4 +167,23 @@ h2::before {
 
 .brown {
   background-color: brown;
+}
+
+.chuck-img {
+  float: left;
+  margin-right: 40px;
+}
+.product-options {
+  /* background-color: aqua; */
+  float: left;
+  width: 243px;
+  margin-top: 20px;
+  margin-right: 40px;
+}
+
+.product-details {
+  /* background-color: aquamarine; */
+  float: right;
+  width: 243px;
+  margin-top: 20px;
 }
